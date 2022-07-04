@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+
 import { DateTime } from './luxon.js';
 
 const dateTime = () => {
