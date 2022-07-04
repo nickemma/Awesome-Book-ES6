@@ -13,10 +13,8 @@
   "rules": {
     "no-shadow": "off",
     "no-param-reassign": "off",
+    "max-classes-per-file": "off",
     "eol-last": "off"
   },
-  "ignorePatterns": [
-    "dist/",
-    "build/"
-  ]
+  "ignorePatterns": ["dist/", "build/"]
 }

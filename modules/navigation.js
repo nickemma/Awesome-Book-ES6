@@ -8,6 +8,7 @@ export default class Navigation {
     this.second = document.querySelector('.add');
     this.third = document.querySelector('.contact-me');
   }
+
   view() {
     this.first.addEventListener('click', (e) => {
       e.preventDefault();
