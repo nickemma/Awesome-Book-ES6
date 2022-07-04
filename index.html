@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Book</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav-container">
+      <div class="logo">
+        <a href="">Awesome Books </a>
+      </div>
+      <nav class="menu">
+        <ul class="nav-list">
+          <li class="list">
+            <a href="" class="list">Book List</a>
+          </li>
+          <li class="list"><a href="" class="add">Add Books</a></li>
+          <li class="list"><a href="" class="contact-me">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="date"><p class="year"></p></div>
+    <section class="container">
+      <h1>All Awesome Books</h1>
+      <section class="tab">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="book-list"></tbody>
+        </table>
+      </section>
+    </section>
+
+    <section class="bokk">
+      <form id="book-form">
+        <h2>Add a new Book</h2>
+        <label for="title">
+          <input id="title" name="title" placeholder="Title" type="text" />
+        </label>
+        <br />
+        <label for="author">
+          <input id="author" name="author" placeholder="Author" type="text" />
+        </label>
+        <br />
+        <button class="btn-submit" type="submit">Add</button>
+      </form>
+    </section>
+    <section class="contact">
+      <h2 class="contact-text">CONTACT INFORMATION</h2>
+      <p class="contact-text">You can reach us on:</p>
+      <ul class="contact-list">
+        <li>Contactus@gmail.com</li>
+        <li>23456789900</li>
+        <li>Lagos, Mexico</li>
+      </ul>
+    </section>
+    <footer>
+      <h2>Copyright @ Awesome Book Publishers</h2>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
