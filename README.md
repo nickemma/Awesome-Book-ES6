@@ -45,15 +45,14 @@ $ git clone {repository URL}
 
 ### Usage
 
-> open your directory Awsome Books/
-> to run the file :
+> open your directory Awesome
 > \_use vs-code or any IDE to view line code .
 
-\_use you preferd browser to run the file .html to get project website.
+\_use you preferred browser to run the file .html to get project website.
 
 ### LIVE DEMO
 
-CHECK THIS LINK [Awsome Books]()
+Check the live demo here [Awesome Book](https://nickemma.github.io/Awesome-Book-ES6/)
 
 ## Authors
 
